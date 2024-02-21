@@ -14,7 +14,7 @@ const LockItem = ({ lock: { title, desc, image }, index }: LockItemProps) => {
       <div className="m-auto w-full flex flex-col lg:flex-row justify-between gap-8 md:gap-10 lg:gap-12 items-center py-12">
         <div
           className={`w-full md:basis-1/2 flex items-center relative my-8 lg:my-0 ${
-            index % 2 === 0 ? "justify-center lg:justify-end " : "order-2 justify-center justify-start"
+            index % 2 === 0 ? "justify-center lg:justify-end " : "lg:order-2 justify-center lg:justify-start"
           }`}
         >
           <Image
@@ -22,6 +22,7 @@ const LockItem = ({ lock: { title, desc, image }, index }: LockItemProps) => {
             alt={title}
             width={(title === "D10") ? 550 : 350}
             height={450}
+            loading="lazy"
             className="z-10"
           />
 
