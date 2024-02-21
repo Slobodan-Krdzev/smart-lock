@@ -1,7 +1,9 @@
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
-import LockListing from "../Components/LockListing/LockListing";
-import Header from "../Components/header";
+import Listing from "../Components/Listing/Listing";
+
+
+
 
 export default async function Home({
   params: { lang },
@@ -12,8 +14,10 @@ export default async function Home({
 
   return (
     <>
+
+      <Listing />
       
-      <section
+      {/* <section
         className="flex justify-start items-center relative"
         style={{
           backgroundImage: `url("https://i.imgur.com/3dfL2dX.jpg")`,
@@ -39,7 +43,7 @@ export default async function Home({
         </div>
       </section>
         <LockListing />
-      
+       */}
 
       {
         // VTOR DIZAJN - LOSH
