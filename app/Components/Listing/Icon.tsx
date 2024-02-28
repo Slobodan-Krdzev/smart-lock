@@ -9,7 +9,7 @@ type IconPropsType = {
 const Icon = ({ icon: { title, icon } }: IconPropsType) => {
   return (
     <div className="tooltip">
-      <span className="tooltiptext" >{title}</span>
+      {/* <span className="tooltiptext" >{title}</span> */}
       <FontAwesomeIcon
         key={title}
         icon={icon}

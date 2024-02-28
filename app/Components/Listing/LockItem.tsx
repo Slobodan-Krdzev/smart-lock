@@ -46,7 +46,7 @@ const LockItem = ({ lock: { title, desc, image }, index }: LockItemProps) => {
               <h2 className="uppercase font-semibold text-5xl lg:text-7xl tracking-tighter basis-1/2">
                 {title}
               </h2>
-              <div className="basis-1/2 flex gap-2 md:gap-4">
+              <div className="basis-1/2 flex flex-wrap gap-2 md:gap-4 overflow-hidden">
                 {desc.map(singleDesc => <Icon key={singleDesc.title} icon={singleDesc} />)}
                 
               </div>
