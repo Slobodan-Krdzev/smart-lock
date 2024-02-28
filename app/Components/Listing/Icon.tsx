@@ -14,7 +14,7 @@ const Icon = ({ icon: { title, icon } }: IconPropsType) => {
         key={title}
         icon={icon}
         size="sm"
-        style={{ height: 35, width: 35 }}
+        style={{ height: 30, width: 30 }}
         className="text-custom border-2 border-custom p-1 rounded-lg"
       />
     </div>
