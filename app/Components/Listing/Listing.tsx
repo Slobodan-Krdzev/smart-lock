@@ -1,6 +1,7 @@
 import React from "react";
 import LockItem from "./LockItem";
 import { LockType } from "@/app/Types/types";
+import { faBatteryThreeQuarters, faCreditCard, faFingerprint, faKey, faLanguage, faLock, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 
 export const locks: LockType[] = [
   {
@@ -8,14 +9,38 @@ export const locks: LockType[] = [
     title: "F8-TX",
     image: "https://i.imgur.com/lhgXnJf.png",
     desc: [
-      "Fringerprint",
-      "Password",
-      "Mechanical Key",
-      "Card",
-      "Battery Reminder",
-      "Tuya Smart",
-      "Lock Body",
-      "English Preset",
+      {
+        title: 'Fingerprint',
+        icon: faFingerprint
+      },
+      {
+        title: 'Password',
+        icon: faKey
+      },
+      {
+        title: 'Key',
+        icon: faKey
+      },
+      {
+        title: 'Card',
+        icon: faCreditCard
+      },
+      {
+        title: 'Mobile Control',
+        icon: faMobileScreen
+      },
+      {
+        title: 'Battery Reminder',
+        icon: faBatteryThreeQuarters
+      },
+      {
+        title: 'Lock Body',
+        icon: faLock
+      },
+      {
+        title: 'English Preset',
+        icon: faLanguage
+      }
     ],
   },
   {
@@ -23,15 +48,38 @@ export const locks: LockType[] = [
     title: "D10",
     image: "https://i.imgur.com/hCXy2VY.png",
     desc: [
-      "Fringerprint",
-      "Password",
-      "Mechanical Key",
-      "Card",
-      "Battery Reminder",
-      "Waterproof",
-      "Tuya Smart",
-      "Lock Body",
-      "English Preset",
+      {
+        title: 'Fingerprint',
+        icon: faFingerprint
+      },
+      {
+        title: 'Password',
+        icon: faKey
+      },
+      {
+        title: 'Key',
+        icon: faKey
+      },
+      {
+        title: 'Card',
+        icon: faCreditCard
+      },
+      {
+        title: 'Tuya Smart - Mobile',
+        icon: faMobileScreen
+      },
+      {
+        title: 'Battery Reminder',
+        icon: faBatteryThreeQuarters
+      },
+      {
+        title: 'Lock Body',
+        icon: faLock
+      },
+      {
+        title: 'English Preset',
+        icon: faLanguage
+      }
     ],
   },
   {
@@ -39,15 +87,38 @@ export const locks: LockType[] = [
     title: "Q1 - Ball Lock",
     image: "https://i.imgur.com/KwUljh3.png",
     desc: [
-      "Fringerprint",
-      "Password",
-      "Mechanical Key",
-      "Card",
-      "Battery Reminder",
-      "Waterproof",
-      "Tuya Smart",
-      "Lock Body",
-      "English Preset",
+      {
+        title: 'Fingerprint',
+        icon: faFingerprint
+      },
+      {
+        title: 'Password',
+        icon: faKey
+      },
+      {
+        title: 'Key',
+        icon: faKey
+      },
+      {
+        title: 'Card',
+        icon: faCreditCard
+      },
+      {
+        title: 'Tuya Smart - Mobile',
+        icon: faMobileScreen
+      },
+      {
+        title: 'Battery Reminder',
+        icon: faBatteryThreeQuarters
+      },
+      {
+        title: 'Lock Body',
+        icon: faLock
+      },
+      {
+        title: 'English Preset',
+        icon: faLanguage
+      }
     ],
   },
   {
@@ -55,15 +126,38 @@ export const locks: LockType[] = [
     title: "Face 1",
     image: "https://i.imgur.com/2geCyBS.png",
     desc: [
-      "Fringerprint",
-      "Password",
-      "Mechanical Key",
-      "Card",
-      "Battery Reminder",
-      "Waterproof",
-      "Tuya Smart",
-      "Lock Body",
-      "English Preset",
+      {
+        title: 'Fingerprint',
+        icon: faFingerprint
+      },
+      {
+        title: 'Password',
+        icon: faKey
+      },
+      {
+        title: 'Key',
+        icon: faKey
+      },
+      {
+        title: 'Card',
+        icon: faCreditCard
+      },
+      {
+        title: 'Tuya Smart - Mobile',
+        icon: faMobileScreen
+      },
+      {
+        title: 'Battery Reminder',
+        icon: faBatteryThreeQuarters
+      },
+      {
+        title: 'Lock Body',
+        icon: faLock
+      },
+      {
+        title: 'English Preset',
+        icon: faLanguage
+      }
     ],
   },
   {
@@ -71,15 +165,38 @@ export const locks: LockType[] = [
     title: "Face 2",
     image: "https://i.imgur.com/NS4CUOy.png",
     desc: [
-      "Fringerprint",
-      "Password",
-      "Mechanical Key",
-      "Card",
-      "Battery Reminder",
-      "Waterproof",
-      "Tuya Smart",
-      "Lock Body",
-      "English Preset",
+      {
+        title: 'Fingerprint',
+        icon: faFingerprint
+      },
+      {
+        title: 'Password',
+        icon: faKey
+      },
+      {
+        title: 'Key',
+        icon: faKey
+      },
+      {
+        title: 'Card',
+        icon: faCreditCard
+      },
+      {
+        title: 'Tuya Smart - Mobile',
+        icon: faMobileScreen
+      },
+      {
+        title: 'Battery Reminder',
+        icon: faBatteryThreeQuarters
+      },
+      {
+        title: 'Lock Body',
+        icon: faLock
+      },
+      {
+        title: 'English Preset',
+        icon: faLanguage
+      }
     ],
   },
   {
@@ -87,16 +204,39 @@ export const locks: LockType[] = [
     title: "Face 3",
     image: "https://i.imgur.com/AWiyqrz.png",
     desc: [
-      "Fringerprint",
-      "Password",
-      "Mechanical Key",
-      "Card",
-      "Battery Reminder",
-      "Waterproof",
-      "Tuya Smart",
-      "Lock Body",
-      "English Preset",
-    ],
+      {
+        title: 'Fingerprint',
+        icon: faFingerprint
+      },
+      {
+        title: 'Password',
+        icon: faKey
+      },
+      {
+        title: 'Key',
+        icon: faKey
+      },
+      {
+        title: 'Card',
+        icon: faCreditCard
+      },
+      {
+        title: 'Tuya Smart - Mobile',
+        icon: faMobileScreen
+      },
+      {
+        title: 'Battery Reminder',
+        icon: faBatteryThreeQuarters
+      },
+      {
+        title: 'Lock Body',
+        icon: faLock
+      },
+      {
+        title: 'English Preset',
+        icon: faLanguage
+      }
+    ], 
   }
 
 ];
