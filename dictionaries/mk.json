@@ -7,7 +7,11 @@
       "home": {
         "title": "Smart",
         "title2": "Lock",
-        "btn": "Контакт"
+        "btn": "Контакт",
+        "form": {
+          "title": "Побарај Понуда!",
+          "desc": "Веднаш ќе добиете одговор!"
+        }
       },
       "about": {
         "title": "About Us",

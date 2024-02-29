@@ -142,7 +142,7 @@ const ContactForm = ({ lang }: ContactFormType) => {
           color: "white",
         }}
         className="py-4 px-8 font-semibold uppercase rounded-full shadow-md btn w-full">
-            {Boolean(country === 'en') ? "Submit" : "Испрати"}
+            {Boolean(country === 'en') ? "Submit" : "Контакт"}
       </button>
     </form>
   );

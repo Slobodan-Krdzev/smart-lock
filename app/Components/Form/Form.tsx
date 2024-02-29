@@ -28,10 +28,11 @@ const Form = ({ lang }: FormPropsType) => {
           </div>
 
           <h2 className="text-center my-8 text-4xl lg:text-6xl uppercase font-semibold text-custom">
-            Contact Us!
+            {lang.home.form.title}
           </h2>
           <p className="text-center text-2xl lg:text-4xl font-medium text-custom">
-            Let`s get in touch!
+          {lang.home.form.desc}
+
           </p>
         </div>
         <div className="basis-full lg:basis-1/2 flex justify-center">
