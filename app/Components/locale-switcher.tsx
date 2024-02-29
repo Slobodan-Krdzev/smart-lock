@@ -20,10 +20,9 @@ export default function LocaleSwitcher() {
     <ul className='flex gap-x-3'>
       {i18n.locales.map(locale => {
         return (
-          <li key={locale}>
+          <li key={locale} style={{height:40, width:40}}>
             <Link
               href={redirectedPathName(locale)}
-              className='rounded-md textColor-bg px-3 py-2 text-color2'
             >
               <Image src={Boolean(locale === 'en') ? "https://i.imgur.com/zUSSj3B.png" : "https://i.imgur.com/ikHeXm5.png"} alt={locale} height={45} width={45} className='rounded-full zoom'/>
             </Link>

@@ -10,7 +10,12 @@ export default async function Header({ lang }: { lang: Locale }) {
   return (
     <header className="py-2 bg-custom">
       <nav className="m-auto w-11/12 md:w-9/12 flex items-center justify-between text-white">
-      <Image src={'https://i.imgur.com/z2TvdgM.png'} alt="Smart-Lock Logo" width={150} height={100}/>
+        <Image
+          src={"https://i.imgur.com/z2TvdgM.png"}
+          alt="Smart-Lock Logo"
+          width={150}
+          height={100}
+        />
         <LocaleSwitcher />
       </nav>
     </header>
