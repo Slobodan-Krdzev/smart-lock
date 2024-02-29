@@ -19,7 +19,6 @@ const Footer = async ({ lang }: any) => {
         <div className="text-white">
           <h2 className="font-semibold text-xl">{page.footer.contact}</h2>
           <p className="font-semibold text-xl">{page.footer.name}</p>
-    <p>CHANGE</p>
           <a href="tel:+38972277766" className="font-semibold block">
             {page.footer.tel} <span className="underline">+38972277766</span>
           </a>
