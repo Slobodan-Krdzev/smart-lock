@@ -19,6 +19,7 @@ const ContactForm = ({ lang }: ContactFormType) => {
 
   return (
     <form
+    className="m-auto w-11/12 lg:w-full"
       onSubmit={(e) => {
         e.preventDefault();
         handleSubmit(e);
@@ -26,8 +27,8 @@ const ContactForm = ({ lang }: ContactFormType) => {
         e.currentTarget.reset();
       }}
     >
-      <div className="flex justify-between gap-x-4">
-        <div className="mb-4 flex flex-col">
+      <div className="flex flex-col lg:flex-row lg:gap-x-4">
+        <div className="mb-4 flex flex-col basis-full lg:basis-1/2">
           <label className="text-custom font-semibold" htmlFor="name">
             {Boolean(country === 'en') ? "Your Name *" : "Вашето Име *"}
           </label>
@@ -39,7 +40,7 @@ const ContactForm = ({ lang }: ContactFormType) => {
             name="name"
           />
         </div>
-        <div className="mb-4 flex flex-col">
+        <div className="mb-4 flex flex-col basis-full lg:basis-1/2">
           <label className="text-custom font-semibold" htmlFor="email">
           {Boolean(country === 'en') ? "Your Емаил *" : "Вашиот Email *"}
 
@@ -54,8 +55,8 @@ const ContactForm = ({ lang }: ContactFormType) => {
         </div>
       </div>
 
-      <div className="flex justify-between gap-x-4">
-        <div className="mb-4 flex flex-col">
+      <div className="flex flex-col lg:flex-row justify-between lg:gap-x-4 w-full">
+        <div className="mb-4 flex flex-col basis-full lg:basis-1/2">
           <label className="text-custom font-semibold" htmlFor="tel">
           {Boolean(country === 'en') ? "Your Phone Number *" : "Телефонски Број *"}
             
@@ -73,21 +74,20 @@ const ContactForm = ({ lang }: ContactFormType) => {
             inputClass='inputPhoneContainer'
             containerStyle={{
               flexBasis: '100%',
-              width: '100%',
               border: '2px solid #526AC2',
               borderRadius: '0.4rem'  
             }}
             inputStyle={{
               width: '100%',
-              height: '100%',
-              border: 'none'
+              border: 'none',
+              padding: '1rem 0.5rem'
             }}
             onBlur={(e: any) => {
               setPhoneNum(e.target.value);
             }}
           />
         </div>
-        <div className="mb-4 flex flex-col">
+        <div className="mb-4 flex flex-col basis-full lg:basis-1/2">
           <label className="text-custom font-semibold" htmlFor="company">
           {Boolean(country === 'en') ? "Company*" : "Вашата Компанија"}
 

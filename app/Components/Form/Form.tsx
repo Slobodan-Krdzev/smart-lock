@@ -15,15 +15,18 @@ const Form = ({ lang }: FormPropsType) => {
         backgroundColor: "white",
       }}
     >
-      <div className="m-auto w-11/12 lg:w-8/12 flex justify-between items-center gap-x-4 basis-1/2">
-        <div>
-          <Image
-            src={"https://i.imgur.com/z2TvdgM.png"}
-            alt="Logo"
-            width={400}
-            height={200}
-            className="rounded-full shadow-xl"
-          />
+      <div className="m-auto w-full lg:w-8/12 flex flex-col lg:flex-row justify-between lg:items-center gap-6  basis-1/2">
+        <div className="basis-full lg:basis-1/2">
+          <div className="flex justify-center items-center">
+            <Image
+              src={"https://i.imgur.com/z2TvdgM.png"}
+              alt="Logo"
+              width={400}
+              height={200}
+              className="rounded-full shadow-xl"
+            />
+          </div>
+
           <h2 className="text-center my-8 text-4xl lg:text-6xl uppercase font-semibold text-custom">
             Contact Us!
           </h2>
@@ -31,7 +34,7 @@ const Form = ({ lang }: FormPropsType) => {
             Let`s get in touch!
           </p>
         </div>
-        <div className="basis-1/2 flex justify-center">
+        <div className="basis-full lg:basis-1/2 flex justify-center">
           <ContactForm lang={lang} />
         </div>
       </div>
