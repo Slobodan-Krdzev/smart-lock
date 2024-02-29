@@ -2,8 +2,46 @@ import { LockType } from "@/app/Types/types";
 import LockItem from "./LockItem";
 
 export const locks: LockType[] = [
+  
   {
     id: 1,
+    title: "F8-TX",
+    image: "https://i.imgur.com/lhgXnJf.png",
+    desc: [
+      {
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
+      },
+      {
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
+      },
+      {
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
+      },
+      {
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
+      },
+      {
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
+      },
+      {
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "CJ001",
     image: "https://i.imgur.com/VHKnCrA.png",
     desc: [
@@ -41,43 +79,6 @@ export const locks: LockType[] = [
         title: "Автоматско Заклучување",
         titleEng: "Auto Lock",
         icon: "https://i.imgur.com/twMtpe6.png",
-      },
-      {
-        title: "Подсетник за замена на батерија",
-        titleEng: "Low Battery Reminder",
-        icon: "https://i.imgur.com/GrNGYiM.png",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "F8-TX",
-    image: "https://i.imgur.com/lhgXnJf.png",
-    desc: [
-      {
-        title: "Отисок На Прсти",
-        titleEng: "Fingerprint",
-        icon: "https://i.imgur.com/GGw1TVs.png",
-      },
-      {
-        title: "Лозинки",
-        titleEng: "Passcode",
-        icon: "https://i.imgur.com/CfCdiEW.png",
-      },
-      {
-        title: "Механички Клуч",
-        titleEng: "Mechanical Key",
-        icon: "https://i.imgur.com/wq47S5y.png",
-      },
-      {
-        title: "Ваша Smart Апликација",
-        titleEng: "Tuya Smart App",
-        icon: "https://i.imgur.com/Ye1Odnj.png",
-      },
-      {
-        title: "NFC Картичка",
-        titleEng: "NFC Card",
-        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
         title: "Подсетник за замена на батерија",
