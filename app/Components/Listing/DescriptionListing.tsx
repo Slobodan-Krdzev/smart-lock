@@ -13,9 +13,6 @@ const DescriptionListing = ({items, lang}: DescriptionListingProps) => {
 
     const pathname = usePathname().split('/')[1]
 
-    console.log(pathname.split('/')[1]);
-    
-
   return (
     <div>
         {items.map((item, idx) => <div key={item.title} className='flex items-center gap-6 mb-4 last:mb-0'>
