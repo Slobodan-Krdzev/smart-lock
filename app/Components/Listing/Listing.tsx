@@ -234,7 +234,7 @@ export const locks: LockType[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "SL ID 2",
     image: "https://i.imgur.com/bN0je9U.png",
     desc: [
@@ -296,7 +296,7 @@ export const locks: LockType[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "SL ID 3",
     image: "https://i.imgur.com/HT0Vh4e.png",
     desc: [
