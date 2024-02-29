@@ -10,13 +10,13 @@ const Icon = ({ icon: { title, icon } }: IconPropsType) => {
   return (
     <div className="tooltip">
       {/* <span className="tooltiptext" >{title}</span> */}
-      <FontAwesomeIcon
+      {/* <FontAwesomeIcon
         key={title}
-        icon={icon}
+        icon={}
         size="sm"
         style={{ height: 30, width: 30 }}
         className="text-custom border-2 border-custom p-1 rounded-lg"
-      />
+      /> */}
     </div>
   );
 };

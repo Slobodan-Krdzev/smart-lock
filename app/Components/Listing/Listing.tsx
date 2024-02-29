@@ -1,85 +1,89 @@
-import React from "react";
-import LockItem from "./LockItem";
 import { LockType } from "@/app/Types/types";
-import { faBatteryThreeQuarters, faCreditCard, faFingerprint, faKey, faLanguage, faLock, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import LockItem from "./LockItem";
 
 export const locks: LockType[] = [
   {
     id: 1,
-    title: "F8-TX",
-    image: "https://i.imgur.com/lhgXnJf.png",
+    title: "CJ001",
+    image: "https://i.imgur.com/VHKnCrA.png",
     desc: [
       {
-        title: 'Fingerprint',
-        icon: faFingerprint
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
       },
       {
-        title: 'Password',
-        icon: faKey
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: 'Key',
-        icon: faKey
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: 'Card',
-        icon: faCreditCard
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
       },
       {
-        title: 'Mobile Control',
-        icon: faMobileScreen
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: 'Battery Reminder',
-        icon: faBatteryThreeQuarters
+        title: "Тивок Режим",
+        titleEng: "Silent Mode",
+        icon: "https://i.imgur.com/eajB0Y8.png",
       },
       {
-        title: 'Lock Body',
-        icon: faLock
+        title: "Автоматско Заклучување",
+        titleEng: "Auto Lock",
+        icon: "https://i.imgur.com/twMtpe6.png",
       },
       {
-        title: 'English Preset',
-        icon: faLanguage
-      }
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
+      },
     ],
   },
   {
     id: 2,
-    title: "D10",
-    image: "https://i.imgur.com/hCXy2VY.png",
+    title: "F8-TX",
+    image: "https://i.imgur.com/lhgXnJf.png",
     desc: [
       {
-        title: 'Fingerprint',
-        icon: faFingerprint
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
       },
       {
-        title: 'Password',
-        icon: faKey
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: 'Key',
-        icon: faKey
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: 'Card',
-        icon: faCreditCard
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
       },
       {
-        title: 'Tuya Smart - Mobile',
-        icon: faMobileScreen
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: 'Battery Reminder',
-        icon: faBatteryThreeQuarters
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
       },
-      {
-        title: 'Lock Body',
-        icon: faLock
-      },
-      {
-        title: 'English Preset',
-        icon: faLanguage
-      }
     ],
   },
   {
@@ -88,164 +92,283 @@ export const locks: LockType[] = [
     image: "https://i.imgur.com/KwUljh3.png",
     desc: [
       {
-        title: 'Fingerprint',
-        icon: faFingerprint
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
       },
       {
-        title: 'Password',
-        icon: faKey
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: 'Key',
-        icon: faKey
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: 'Card',
-        icon: faCreditCard
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
       },
       {
-        title: 'Tuya Smart - Mobile',
-        icon: faMobileScreen
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: 'Battery Reminder',
-        icon: faBatteryThreeQuarters
+        title: "Автоматско Заклучување",
+        titleEng: "Auto Lock",
+        icon: "https://i.imgur.com/twMtpe6.png",
       },
       {
-        title: 'Lock Body',
-        icon: faLock
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
       },
-      {
-        title: 'English Preset',
-        icon: faLanguage
-      }
     ],
   },
   {
     id: 4,
-    title: "Face 1",
-    image: "https://i.imgur.com/2geCyBS.png",
+    title: "D10",
+    image: "https://i.imgur.com/hCXy2VY.png",
     desc: [
       {
-        title: 'Fingerprint',
-        icon: faFingerprint
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
       },
       {
-        title: 'Password',
-        icon: faKey
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: 'Key',
-        icon: faKey
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: 'Card',
-        icon: faCreditCard
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
       },
       {
-        title: 'Tuya Smart - Mobile',
-        icon: faMobileScreen
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: 'Battery Reminder',
-        icon: faBatteryThreeQuarters
+        title: "Надворепна Хидроизолација",
+        titleEng: "Waterproof",
+        icon: "https://i.imgur.com/pic3npc.png",
       },
       {
-        title: 'Lock Body',
-        icon: faLock
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
       },
-      {
-        title: 'English Preset',
-        icon: faLanguage
-      }
     ],
   },
   {
     id: 5,
-    title: "Face 2",
+    title: "SL ID 1",
+    image: "https://i.imgur.com/2geCyBS.png",
+    desc: [
+      {
+        title: "3D Препознавање на Лице",
+        titleEng: "3D Face Recognition",
+        icon: "https://i.imgur.com/NadCVxI.png",
+      },
+      {
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
+      },
+      {
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
+      },
+      {
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
+      },
+      {
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
+      },
+      {
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
+      },
+      {
+        title: "Фотографирање",
+        titleEng: "Photo",
+        icon: "https://i.imgur.com/PELrmzb.png",
+      },
+      {
+        title: "USB приклучок за напојување за итни случаи",
+        titleEng: "USB power input in emergency",
+        icon: "https://i.imgur.com/DYEk7z4.png",
+      },
+      {
+        title: "Визуелна Шпионка",
+        titleEng: "Visual Spy",
+        icon: "https://i.imgur.com/g2O8IRc.png",
+      },
+      {
+        title: "Далечинско Отклучување со Мобилен Телефон",
+        titleEng: "Remote Unlocking via Mobile Phone",
+        icon: "https://i.imgur.com/8b3R4Fc.png",
+      },
+      {
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "SL ID 2",
     image: "https://i.imgur.com/NS4CUOy.png",
     desc: [
       {
-        title: 'Fingerprint',
-        icon: faFingerprint
+        title: "3D Препознавање на Лице",
+        titleEng: "3D Face Recognition",
+        icon: "https://i.imgur.com/NadCVxI.png",
       },
       {
-        title: 'Password',
-        icon: faKey
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
       },
       {
-        title: 'Key',
-        icon: faKey
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: 'Card',
-        icon: faCreditCard
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: 'Tuya Smart - Mobile',
-        icon: faMobileScreen
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
       },
       {
-        title: 'Battery Reminder',
-        icon: faBatteryThreeQuarters
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: 'Lock Body',
-        icon: faLock
+        title: "Фотографирање",
+        titleEng: "Photo",
+        icon: "https://i.imgur.com/PELrmzb.png",
       },
       {
-        title: 'English Preset',
-        icon: faLanguage
-      }
+        title: "USB приклучок за напојување за итни случаи",
+        titleEng: "USB power input in emergency",
+        icon: "https://i.imgur.com/DYEk7z4.png",
+      },
+      {
+        title: "Визуелна Шпионка",
+        titleEng: "Visual Spy",
+        icon: "https://i.imgur.com/g2O8IRc.png",
+      },
+      {
+        title: "Далечинско Отклучување со Мобилен Телефон",
+        titleEng: "Remote Unlocking via Mobile Phone",
+        icon: "https://i.imgur.com/8b3R4Fc.png",
+      },
+      {
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
+      },
     ],
   },
   {
     id: 6,
-    title: "Face 3",
+    title: "SL ID 3",
     image: "https://i.imgur.com/AWiyqrz.png",
     desc: [
       {
-        title: 'Fingerprint',
-        icon: faFingerprint
+        title: "3D Препознавање на Лице",
+        titleEng: "3D Face Recognition",
+        icon: "https://i.imgur.com/NadCVxI.png",
       },
       {
-        title: 'Password',
-        icon: faKey
+        title: "Отисок На Прсти",
+        titleEng: "Fingerprint",
+        icon: "https://i.imgur.com/GGw1TVs.png",
       },
       {
-        title: 'Key',
-        icon: faKey
+        title: "Лозинки",
+        titleEng: "Passcode",
+        icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: 'Card',
-        icon: faCreditCard
+        title: "Механички Клуч",
+        titleEng: "Mechanical Key",
+        icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: 'Tuya Smart - Mobile',
-        icon: faMobileScreen
+        title: "Ваша Smart Апликација",
+        titleEng: "Tuya Smart App",
+        icon: "https://i.imgur.com/Ye1Odnj.png",
       },
       {
-        title: 'Battery Reminder',
-        icon: faBatteryThreeQuarters
+        title: "NFC Картичка",
+        titleEng: "NFC Card",
+        icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: 'Lock Body',
-        icon: faLock
+        title: "Фотографирање",
+        titleEng: "Photo",
+        icon: "https://i.imgur.com/PELrmzb.png",
       },
       {
-        title: 'English Preset',
-        icon: faLanguage
-      }
-    ], 
+        title: "USB приклучок за напојување за итни случаи",
+        titleEng: "USB power input in emergency",
+        icon: "https://i.imgur.com/DYEk7z4.png",
+      },
+      {
+        title: "Визуелна Шпионка",
+        titleEng: "Visual Spy",
+        icon: "https://i.imgur.com/g2O8IRc.png",
+      },
+      {
+        title: "Далечинско Отклучување со Мобилен Телефон",
+        titleEng: "Remote Unlocking via Mobile Phone",
+        icon: "https://i.imgur.com/8b3R4Fc.png",
+      },
+      {
+        title: "Подсетник за замена на батерија",
+        titleEng: "Low Battery Reminder",
+        icon: "https://i.imgur.com/GrNGYiM.png",
+      },
+    ],
   }
-
 ];
 
-const Listing = () => {
+type ListingPropsType = {
+  lang: any;
+};
+
+const Listing = ({ lang }: ListingPropsType) => {
+  console.log(lang.home);
+
   return (
     <section>
-      {locks.map((lock, idx:number) => (
-        <LockItem key={lock.id} lock={lock} index={idx} />
+      {locks.map((lock, idx: number) => (
+        <LockItem key={lock.id} lock={lock} index={idx} lang={lang} />
       ))}
     </section>
   );

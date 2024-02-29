@@ -1,8 +1,9 @@
-import { IconProp } from "@fortawesome/fontawesome-svg-core"
+
 
 export type SingleDescItem = {
     title: string,
-    icon: IconProp
+    titleEng: string,
+    icon: string
 }
 
 export type LockType = {
