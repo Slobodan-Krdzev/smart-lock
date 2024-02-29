@@ -11,5 +11,9 @@
       }
     },
     "footer": {
+      "contact" : "Contact:",
+      "name": "Vlatko Hadzikojcev",
+      "tel": "Tel:",
+      "email": "E-mail:"
     }
   }
