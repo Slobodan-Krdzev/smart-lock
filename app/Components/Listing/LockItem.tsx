@@ -48,16 +48,12 @@ const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) 
               <h2 className="uppercase font-semibold text-5xl lg:text-7xl tracking-tighter basis-1/2">
                 {title}
               </h2>
-              {/* <div className="basis-1/2 flex flex-wrap gap-2 md:gap-4 overflow-hidden">
-                {desc.map(singleDesc => <Icon key={singleDesc.title} icon={singleDesc} />)}
-                
-              </div> */}
             </div>
 
               <DescriptionListing items={desc} lang={lang}/>
             
             <Link
-              href={"/"}
+              href={"#form"}
               className="py-4 px-8 font-semibold uppercase bg w-fit rounded-full text-color border-2 hover:border-custom hover:text-custom hover:bg-bg-light transition-colors ease-in-out "
             >
               {lang.home.btn}

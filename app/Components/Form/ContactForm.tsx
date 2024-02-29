@@ -63,7 +63,7 @@ const ContactForm = ({ lang }: ContactFormType) => {
         </div>
         <div className="mb-4 flex flex-col basis-full lg:basis-1/2">
           <label className="text-custom font-semibold" htmlFor="email">
-          {Boolean(country === 'en') ? "Your Емаил *" : "Вашиот Email *"}
+          {Boolean(country === 'en') ? "Your Email *" : "Вашиот Email *"}
 
           </label>
           <input
