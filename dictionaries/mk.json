@@ -6,7 +6,8 @@
     "page": {
       "home": {
         "title": "Smart",
-        "title2": "Lock"
+        "title2": "Lock",
+        "btn": "Контакт"
       },
       "about": {
         "title": "About Us",

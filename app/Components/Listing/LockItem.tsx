@@ -60,7 +60,7 @@ const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) 
               href={"/"}
               className="py-4 px-8 font-semibold uppercase bg w-fit rounded-full text-color border-2 hover:border-custom hover:text-custom hover:bg-bg-light transition-colors ease-in-out "
             >
-              Contact Us
+              {lang.home.btn}
             </Link>
           </div>
         </div>

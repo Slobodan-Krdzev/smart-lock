@@ -364,8 +364,6 @@ type ListingPropsType = {
 };
 
 const Listing = ({ lang }: ListingPropsType) => {
-  console.log(lang.home);
-
   return (
     <section>
       {locks.map((lock, idx: number) => (
