@@ -43,7 +43,7 @@ export const locks: LockType[] = [
   {
     id: 2,
     title: "CJ001",
-    image: "https://i.imgur.com/VHKnCrA.png",
+    image: "https://i.imgur.com/y20I0tw.png",
     desc: [
       {
         title: "Отисок На Прсти",
@@ -90,7 +90,7 @@ export const locks: LockType[] = [
   {
     id: 3,
     title: "Q1 - Ball Lock",
-    image: "https://i.imgur.com/KwUljh3.png",
+    image: "https://i.imgur.com/bTof0hd.png",
     desc: [
       {
         title: "Отисок На Прсти",
@@ -236,7 +236,7 @@ export const locks: LockType[] = [
   {
     id: 5,
     title: "SL ID 2",
-    image: "https://i.imgur.com/NS4CUOy.png",
+    image: "https://i.imgur.com/bN0je9U.png",
     desc: [
       {
         title: "3D Препознавање на Лице",
@@ -298,7 +298,7 @@ export const locks: LockType[] = [
   {
     id: 6,
     title: "SL ID 3",
-    image: "https://i.imgur.com/AWiyqrz.png",
+    image: "https://i.imgur.com/HT0Vh4e.png",
     desc: [
       {
         title: "3D Препознавање на Лице",

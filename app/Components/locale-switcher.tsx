@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 import { i18n } from '@/i18n.config'
+import Image from 'next/image'
 
 export default function LocaleSwitcher() {
   const pathName = usePathname()
@@ -24,7 +25,7 @@ export default function LocaleSwitcher() {
               href={redirectedPathName(locale)}
               className='rounded-md textColor-bg px-3 py-2 text-color2'
             >
-              {locale}
+              <Image src={Boolean(locale === 'en') ? "https://i.imgur.com/zUSSj3B.png" : "https://i.imgur.com/ikHeXm5.png"} alt={locale} height={45} width={45} className='rounded-full zoom'/>
             </Link>
           </li>
         )
