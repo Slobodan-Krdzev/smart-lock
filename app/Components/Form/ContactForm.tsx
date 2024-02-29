@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
+import Swal from "sweetalert2";
 
 type ContactFormType = {
   lang: any;
@@ -16,6 +17,26 @@ const ContactForm = ({ lang }: ContactFormType) => {
   const [phoneNum, setPhoneNum] = useState("");
 
   const country = pathname.split("/")[1];
+
+  if(state.succeeded) {
+    
+    Swal.fire({
+      title: Boolean(country === 'en') ? "Success!" : "Успешно Испратено!",
+      text: Boolean(country === 'en') ? "We will contact you shortly!" : "Ќе ве исконтактираме!",
+      icon: 'success',
+      confirmButtonColor: '#526AC2'
+    })
+    
+  }
+
+  if(state.errors) {
+    Swal.fire({
+      title: Boolean(country === 'en') ? "Oops!" : "Грешка !",
+      text: Boolean(country === 'en') ? "Try Again Later!" : "Пробајте Повторно!",
+      icon: 'error',
+      confirmButtonColor: '#526AC2'
+    })
+  }
 
   return (
     <form
