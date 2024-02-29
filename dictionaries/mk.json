@@ -14,17 +14,6 @@
       }
     },
     "footer": {
-      "adress": "Adress:",
-      "adressInfo": "Marshal Tito 198 Gevgelija, NMK",
-  
-      "mobile": "Phone:",
-      "mobileInfo": "+38972277766",
-      "mobileInfo3": "",
-      "mobileInfo2": "+306979720433",
-  
-      "email": "E-mail:",
-      "emailInfo": "office@click-tint.com",
-  
-      "btn": "Ask For Price!"
+      
     }
   }

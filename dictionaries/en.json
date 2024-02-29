@@ -1,5 +1,8 @@
 {
-    
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
     "page": {
       "home": {
         "title": "Smart",
