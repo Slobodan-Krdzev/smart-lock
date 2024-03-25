@@ -11,7 +11,7 @@ const Footer = async ({ lang }: any) => {
           <Image
             src={"https://i.imgur.com/z2TvdgM.png"}
             alt="Logo"
-            width={200}
+            width={250}
             height={100}
           />
         </div>
