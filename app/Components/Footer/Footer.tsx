@@ -11,7 +11,7 @@ const Footer = async ({ lang }: any) => {
           <Image
             src={"https://i.imgur.com/z2TvdgM.png"}
             alt="Logo"
-            width={250}
+            width={200}
             height={100}
           />
         </div>
@@ -28,9 +28,11 @@ const Footer = async ({ lang }: any) => {
           >
             {page.footer.email}{" "}
             <span className="underline">contact.smartlocks@gmail.com</span>
+            
           </a>
         </div>
       </div>
+      <p>NEW COMMIT</p>
     </footer>
   );
 };
