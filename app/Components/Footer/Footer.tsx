@@ -32,7 +32,6 @@ const Footer = async ({ lang }: any) => {
           </a>
         </div>
       </div>
-      <p>NEW COMMIT</p>
     </footer>
   );
 };
